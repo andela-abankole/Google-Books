@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Young Creative House</title>
+	<meta name="author" content="Akinjide Bankole">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+	<script type="text/javascript">
+		google.load("books", "0");
+
+		function initialize() {
+			var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+			viewer.load('ISBN:8170085');
+		}
+
+		google.setOnLoadCallback(initialize);
+	</script>
+</head>
+<body <div class="container">
+		<div class="hbg"><img src="assets/img/hbg.png"></div>
+		<header>
+			<div class="logo" style="padding: 0 20px; width: 50%; float: left; margin-top: 5px;">
+				<a href="index.html"><img src="assets/img/2.png"></a>
+			</div>
+			<div class="social-icons" style="width: 12%; float: right; padding: 15px;">
+				<a href="http://www.facebook.com"><img class="facebook" src="assets/img/facebook.png"></a>
+				<a href="http://www.twitter.com"><img class="twitter" src="assets/img/twitter.png"></a>
+				<!-- <img class="developer" src="assets/img/developer.png"> -->
+			</div>
+			<div style="clear:both"></div>
+		</header>
+	</div>
+
+	<section>
+		<form>
+			<input id="q" aria-hidden="true" autocomplete="on" name="q" tabindex="-1" type="" placeholder="Search a book!">
+			<div id="search-icon"><img src="assets/img/search-icon.png" height="25px;"></div>
+			<div style="clear:both"></div>
+		</form> 
+
+		<article>
+			<div id="viewerCanvas" class="col-1"></div>
+		</article>
+
+		<article>
+			<div class="col-2">
+				<img src="assets/img/profile.jpg">
+				<h2>Akinjide Bankole</h2>
+				<p>"I'm optimistic but not perfect"</p>
+
+				<h3>Learner at</h3>
+				<img src="assets/img/andela.png">
+				<h3>Andela</h3>
+			</div>
+		</article>
+		<div style="clear:both"></div>
+	</section>
+
+
+	<footer>
+		<p>Copyright 2015 | This Website Contains Books that as been retrieve from Google Books. Based on Google Books API</p>
+	</footer>
+
+	<script src="https:///code.jquery.com/jquery-1.11.2.min.js"></script>
+</body>
+</html>

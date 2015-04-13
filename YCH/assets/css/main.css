@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #e7e9ec;
+}
+header {
+	background: #999;
+	width: 80%;
+	margin: 0 auto;
+}
+.container .hbg img {width: 100%; position: absolute;}
+.social-icons {
+
+	} .twitter, .facebook {padding: 0 10px;}
+	.twitter, .facebook {border-right: 1px solid #CCCCCD;}
+
+	input {
+			height: 20px;
+			width: 78%;
+			font-family: serif;
+			color: #111;
+			background: none;
+			font-weight: 400;
+			padding: 10px; padding-right: 30px;
+			font-size: 18px;
+			border: none;
+			border-bottom: 1px solid #777;
+			margin-bottom: 10px;
+		} 
+		input:focus, input:active {
+			outline: none !important;
+		}
+		#search-icon img{
+			float:right;
+		}
+
+		#search-icon img {
+			height: 18px;
+			position: relative; top: -38px; left: -190px; 	
+		} 
+	section {width: 80%; 
+		margin: 40px auto;}
+	article .col-1 {
+		width: 80%;
+		height: 600px;
+		float: left;
+		border-radius: 2px;
+	}
+	article .col-2 {
+		width: 18%;
+		height: 585px;
+		float: right;
+		border-radius: 2px;
+		border: 1px solid black;
+		padding: 5px;
+		padding-top: 40px;
+	}
+
+	.col-2 img {
+		width: 100%;
+		border-radius: 100px;
+	} .col-2 h2, h3 {
+		font-size: 22px;
+		font-family: sans-serif;
+		text-align: center;
+		margin: 5px 0;
+	}.col-2 p {
+		font-style: italic;
+		font-family: 'times new roman';
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	/*
+		 ___________
+		|           |
+		|    _______|
+		|   |
+		|   |_______
+		|           |
+		|    _______|
+		|   |
+		|   |
+		|___|*/
+
+		footer {
+			background: #777;
+			width: 80%;
+			margin: 0 auto;
+			height: 100px;
+			} footer > p {
+				font-family: serif;
+				text-align: center;
+				color: #fff;
+				text-transform: capitalize;
+				padding: 40px;
+				font-size: 14px;
+			}
+			
